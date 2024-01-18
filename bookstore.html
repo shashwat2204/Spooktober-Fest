@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Book Store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster&display=swap">
+    <style>
+        body {
+            background-image: url('spookybg.gif'); /* Replace with your Halloween-themed background image */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Creepster', cursive;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .content {
+            text-align: center;
+            color: white;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        .cta-button {
+            background-color: #ff5722; /* Change the button color to fit your theme */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 28px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4500; /* Change the button color on hover */
+        }
+
+        .animated-text {
+            font-size: 36px;
+            animation: textAnimation 4s ease-in-out infinite;
+        }
+
+        @keyframes textAnimation {
+            0%, 100% {
+                color: white;
+            }
+            50% {
+                color: #ff4500; /* Change color during the animation */
+            }
+        }
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            color: white;
+        }
+
+        .navbar i {
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="#profile"><i class="fas fa-user"></i> Profile</a>
+        <a href="#order-history"><i class="fas fa-history"></i> Order History</a>
+        <a href="#notification"><i class="fas fa-bell"></i> Notification</a>
+        <a href="#new-stock"><i class="fas fa-box"></i> New Stock</a>
+        <a href="#explore-books"><i class="fas fa-book"></i> Explore Books</a>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to our</h1>
+        <h1 class="animated-text">Halloween Book Store</h1>
+        <p>Discover spooky reads and mysterious adventures.</p>
+        <a href="https://www.amazon.in/s?k=haunted+books&adgrpid=1318316051337349&hvadid=82395023447137&hvbmt=be&hvdev=c&hvlocphy=156334&hvnetw=o&hvqmt=e&hvtargid=kwd-82395636219576%3Aloc-90&hydadcr=23641_2291795&tag=msndeskstdin-21&ref=pd_sl_4nxh75o1ov_e">
+  <button class="cta-button">ghost everyone</button>
+</a>
+    </div>
+
+
+    <script>
+        function redirectToBookstore() {
+            // Replace 'bookstore.html' with the actual URL of your book store page.
+            window.location.href = 'bookstore.html';
+        }
+    </script>
+</body>
+</html>
+

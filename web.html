@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M E-Commerce</title>
+        <style>
+        /* Reset some default styles */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling */
+        header {
+            background-color: #7B68EE;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+  
+
+        main {
+            max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto;    /* Maintain the image's aspect ratio */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 10px;    /* Round the corners */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    margin: 10px; /* Add some margin for spacing */
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+        }
+     /* Add styles to the advertisement container */
+.advertisement {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f0f0f0; /* Background color to differentiate */
+    padding: 10px; /* Add padding for separation */
+    border: 2px solid #999; /* Add a border for distinction */
+}
+.label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg); /* Tilt the label */
+    background-color: red; /* Background color for the label */
+    color: white; /* Text color for the label */
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    animation: blink 2s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.advertisement-word {
+    position: absolute; /* Enable absolute positioning */
+    top: 150px; /* Position from the top */
+    right: 20px; /* Position from the right */
+    background-color: red; /* Background color for the word */
+    color: white; /* Text color for the word */
+    padding: 5px; /* Add padding for the word */
+    font-weight: bold;
+    border-radius: 5px;
+    animation: blink 2s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+        button {
+            background-color: #222;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #456;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>H&M E-Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+    
+        </nav>
+    </header>
+            
+    
+    <main>
+         <div class="advertisement">
+            <a href="bookstore.html" target="_blank">
+                <img src="2017 Halloween Posters.jpg" alt="Advertisement">
+            </a>
+        </div>
+ <div class="label">
+            Don't Click on Me
+        </div>
+ <div class="advertisement-word">
+        Advertisement
+    </div>
+        <section class="product">
+            <img src="wall art lighting ideas.jpg" alt="Product 1">
+         
+            <p><a href ="https://www2.hm.com/en_in/home.html">HOME DECOR</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="men.jpg" alt="Product 2">
+  
+            <p><a href ="https://www2.hm.com/en_in/men.html">MEN</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="Kitty Corset - Black _ XS _ Preorder.jpg" alt="Product 2">
+ 
+            <p><a href="https://www2.hm.com/en_in/women.html">WOMEN </p>
+            <button>Add to Cart</button>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 H&M E-Commerce
+    </footer>
+</body>
+</html>
+
+
